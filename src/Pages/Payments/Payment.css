@@ -1,0 +1,16 @@
+.payment-type {
+  position: relative;
+}
+
+.payment-type::after {
+  content: "Make payment";
+  position: absolute;
+  top: 7px;
+  left: 14px;
+}
+
+.payment-content {
+  max-height: 520px !important;
+  overflow: scroll;
+  overflow-x: scroll;
+}

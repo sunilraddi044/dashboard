@@ -1,0 +1,10 @@
+.botton-col {
+  min-width: 31%;
+  max-height: 250px;
+}
+
+.dashbord-content {
+  max-height: 512px;
+  overflow: scroll;
+  overflow-x: hidden;
+}

@@ -1,0 +1,95 @@
+.search {
+  width: 100% !important;
+  border: none !important;
+
+  background-color: transparent !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+.search:focus {
+  outline: none !important;
+}
+
+.search-icon-hide {
+  display: none;
+}
+
+.search-icon {
+  top: 2px;
+}
+
+.users {
+  max-height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.search-icon {
+  border: none;
+  color: #999;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #f3ebf5 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f3ebf5;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+}
+
+.chat-list li {
+  padding: 10px 15px;
+  list-style: none;
+  border-radius: 3px;
+}
+
+.chat-list li:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+
+.chat-list li.active {
+  background: #efefef;
+}
+
+.chat-list li .name {
+  font-size: 15px;
+}
+
+.chat-list img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.hide-user {
+  display: none !important;
+}
+
+@media (min-width: 993px) {
+  .users {
+    display: block !important;
+  }
+}

@@ -1,0 +1,9 @@
+.referals {
+  max-height: 180px;
+  overflow-y: scroll;
+}
+
+img {
+  width: 40px;
+  border-radius: 50%;
+}

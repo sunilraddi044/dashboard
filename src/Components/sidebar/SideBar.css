@@ -1,0 +1,33 @@
+.sidebar-row {
+  position: fixed;
+  overflow: none;
+  /* min-width: 300px; */
+  border-radius: 20px !important;
+  width: 20%;
+  top: 105px;
+  left: 2%;
+  /* background-color: #fff !important; */
+}
+
+.sidebar-col {
+  border-radius: 20px !important;
+}
+
+@media (max-width: 850px) {
+  .profile-name,
+  .rating {
+    display: none;
+  }
+  .profile-avatar {
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .profile-name {
+    font-size: 15px;
+  }
+  .rating {
+    font-size: 15px;
+  }
+}

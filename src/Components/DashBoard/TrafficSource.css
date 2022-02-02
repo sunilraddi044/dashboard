@@ -1,0 +1,22 @@
+.traffic-source {
+  position: relative;
+}
+
+.traffic-source::after {
+  content: "38% total money spent";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+}
+
+.traffic-result {
+  position: absolute;
+  top: 0;
+}
+
+.doughnut {
+  height: 182px !important;
+  width: 100% !important;
+}

@@ -1,0 +1,7 @@
+.linechart {
+  display: block;
+  height: 182px !important;
+  width: 100% !important;
+  overflow-y: scroll;
+  /* max-width: 500px !important; */
+}

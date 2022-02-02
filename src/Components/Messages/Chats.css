@@ -1,0 +1,44 @@
+.chats {
+  max-height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.convo-input:focus {
+  outline: none !important;
+}
+
+/* .texts {
+  width: 100%;
+} */
+
+.incoming {
+  background-color: rgba(176, 176, 235, 0.253);
+}
+
+.outgoing {
+  background-color: rgba(231, 210, 210, 0.26);
+}
+
+.msg-input {
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+  height: 50px;
+}
+
+.back-arrow {
+  top: 0;
+  left: -10px;
+  cursor: pointer;
+  border: none !important;
+  background-color: #fff;
+  transform: scale(0.7);
+  font-size: 25px;
+}
+
+@media (max-width: 992px) {
+  .chats {
+    display: none !important;
+  }
+}

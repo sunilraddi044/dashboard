@@ -1,0 +1,31 @@
+i {
+  width: 35px;
+  height: 35px;
+  display: flex;
+
+  background-color: #fff;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  color: #999;
+}
+
+.badge {
+  padding: 5px;
+  top: 6px;
+  right: -10px;
+}
+
+a {
+  color: #555 !important;
+}
+
+.topbar {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
